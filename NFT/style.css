@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Outfit;
+    src: url(/static/Outfit-Regular.ttf);
+}
+
+* {
+    color: hsl(215, 26%, 54%);
+    font-family: Outfit;
+}
+
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+#main{
+    margin: auto;
+    margin-top: 30px;
+    background-color: hsl(216, 50%, 16%);
+    width: 20%;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px black;
+}
+
+
+
+
+
+#image{
+    display: flex;
+    position: relative;
+    margin-bottom: 325px;
+}
+
+#image a{
+    width: 100%;
+    display: block;
+    position: absolute;
+
+}
+
+
+#image a img{
+    width: 100%;
+    position: absolute;
+    border-radius: 15px;
+}
+
+#product{
+    z-index: -1;
+}
+
+#hovering img{
+    z-index: 1;
+    background-color: rgba(0, 255, 255, 0.229);
+    visibility: hidden;
+}
+
+#info a{
+    text-decoration: none;
+    color: white;
+}
+
+#info a:hover{
+    color: cyan;
+}
+
+#info div{
+    margin-top: 15px;
+}
+
+#time{
+    float: right;
+    align-items: center;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: hsl(215, 26%, 54%, 0.3);
+}
+
+#artist{
+    display: flex;
+    align-items: center;
+}
+
+#artist img{
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+#container a{
+    text-decoration: none;
+}
+#container a:hover{
+    color: cyan;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="image">
+            <a onmouseover="view()" onmouseout="hide()" href="/Images/image-equilibrium.jpg">
+                <img id ="prdouct" src="/Images/image-equilibrium.jpg">
+                <div id="hovering"><img id="eye" src="/Images/icon-view.svg"></div>
+            </a>
+        </div>
+        <div id="info">
+            <a href="product.html" class="white bottom" ">Equilibrium #3429</a>
+            <div>Our Equilibrium collection promotes balance and calm.</div>
+            <div id="price_time">
+                <img src="/Images/icon-ethereum.svg">
+                <span> &nbsp;&nbsp;&nbsp;&nbsp;0.041 ETH</span>
+                <span id="time">
+                    <img src="/Images/icon-clock.svg">
+                    <span>
+                        3 days left
+                    </span>
+                </span>
+            </div>
+        </div>
+        
+        <hr>
+        <div id="artist">
+            <img src="/Images/image-avatar.png">
+            <span id="container">Creation of <a href="artist.html">Jules Wyvern</a></span>
+        </div>
+    </div>
+    <script>
+        function view(){
+            document.getElementById('eye').style.visibility = "visible";
+        }
+        function hide(){
+            document.getElementById('eye').style.visibility = "hidden";
+        }
+    </script>
+</body>
+</html>
